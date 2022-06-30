@@ -1,0 +1,64 @@
+@font-face {
+    font-family: copper_bit;
+    src: url(../fonts/Cooper\ Black\ Regular.ttf);
+}
+
+.nosotros {
+    width: 500px;
+    height: 300px;
+}
+
+.nosotrosx {
+    width: 450px;
+    height: 430px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.parrafo1 {
+    text-align: justify;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar,
+.collapse {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.fa-solid {
+    position: relative;
+    top: 5px;
+    margin-right: 2px;
+}
+
+#navbarNavDropdown {
+    transform: translate(50px, 20px);
+}
+
+.nav-item {
+    margin-right: 200px;
+}
+
+.hvr-underline-from-center {
+    background-color: #0f4396;
+}
+
+@media (max-width:800px) {
+    #navbarNavDropdown {
+        transform: translate(50px, 20px);
+    }
+}
